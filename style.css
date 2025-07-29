@@ -1,4 +1,38 @@
-p{
-    color: red;
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8ff;
+  margin: 0;
+  padding: 20px;
 }
 
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #003366;
+}
+
+.stage {
+  background: #e7f1ff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #005a9e;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.interactive {
+  background: #fff0f5;
+  padding: 20px;
+  border-left: 5px solid #c71585;
+}
